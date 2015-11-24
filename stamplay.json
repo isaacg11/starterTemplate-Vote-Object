@@ -1,0 +1,10 @@
+{
+  "appId": "sdkvoteobject",
+  "apiKey": "2a0e7871966abe8ec4c7be1d9e9cf0fc3e72d273112aa551cd4b0c513bfa5464",
+  "public": "./",
+  "ignore": [
+    "stamplay.json",
+    "**/.*",
+    "**/node_modules/**"
+  ]
+}
