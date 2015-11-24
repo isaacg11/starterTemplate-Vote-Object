@@ -3,6 +3,8 @@ a starter template for upvoting and downvoting a custom object using the Stampla
 
 **NOTE: Users must be logged in to use the voting function!**
 
+**CLONING: When cloning this repo, you must switch out the appId & object Id's with your own to make it work.**
+
  1) **Initialize the front-end of your app with Stamplay**
  <br>
 - Go to your command line and enter **stamplay init**
