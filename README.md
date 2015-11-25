@@ -1,9 +1,9 @@
 # starterTemplate-Vote-Object
-a starter template for upvoting and downvoting a custom object using the Stamplay SDK
+a Javascript starter template for upvoting and downvoting a custom object using the Stamplay SDK
 
 **NOTE: Users must be logged in to use the voting function!**
 
-**CLONING: When cloning this repo, you must switch out the appId & object Id's with your own to make it work.**
+**CLONING: When cloning this repo, you must initialize your app first to make it work.**
 
  1) **Initialize the front-end of your app with Stamplay**
  <br>
@@ -26,13 +26,13 @@ Stamplay.init('yourAppId');
 ```
 3) **Establish object to be voted**
 - Go to your Stamplay editor and go to the **Data** section. Then go to **Objects**
-- Establish what object in the collection your going to upvote/downvote by getting it's object **Id**.
+- Establish which object in the collection your going to upvote/downvote by getting it's object **Id**.
 
 4) **upvote( )**
 ```
 function upvote(){
-	var objectInstance = new Stamplay.Cobject('store').Model;
-	objectInstance.fetch('5654a452b3039e5f75c0d0e4').then(function(){
+	var objectInstance = new Stamplay.Cobject('objectModel').Model;
+	objectInstance.fetch('id').then(function(){
     	return objectInstance.upVote(1).then(function(){
     		alert('Upvoted by 1!');
     	});
@@ -42,8 +42,8 @@ function upvote(){
 5) **downvote( )**
 ```
 function downvote(){
-	var objectInstance = new Stamplay.Cobject('store').Model;
-	objectInstance.fetch('5654a452b3039e5f75c0d0e4').then(function(){
+	var objectInstance = new Stamplay.Cobject('objectModel').Model;
+	objectInstance.fetch('id').then(function(){
     	return objectInstance.downVote(1).then(function(){
     		alert('Downvoted by 1!');
     	});
