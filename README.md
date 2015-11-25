@@ -50,4 +50,13 @@ function downvote(){
     });
 }
 ```
+6) **Run app**
+- To run your app, you'll need to install the Stamplay Command Line Tool. Enter this command in your command line:
+```
+$ npm install -g stamplay-cli
+```
+- If your app is in development, you can run it on your local server by entering **stamplay start** in your command line.
+- If your app is in production, you can deploy it live by entering **stamplay deploy** in your command line.
+
+- If you want to run your app in 
 ![alt tag](public/images/upvote:downvote-object-micro-repo.png)
