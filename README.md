@@ -51,7 +51,7 @@ function downvote(){
 }
 ```
 6) **Run app**
-- To run your app, you'll need to install the Stamplay Command Line Tool. Enter this command in your command line:
+- To run your app, you'll need to install the Stamplay Command Line Tool. If you have already installed it, ignore this step. Otherwise, enter this command in your command line:
 ```
 $ npm install -g stamplay-cli
 ```
